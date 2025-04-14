@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { inter } from "./fonts"
 import Image from "next/image";
+import { Badge } from "@/components/ui/badge";
 
 
 export default function Home() {
@@ -18,6 +19,12 @@ export default function Home() {
           <nav className="flex gap-5 text-base">
             <Link href="https://lu.ma/lisboaux" className="hover:text-primary hover:opacity-30 transition-all">
               Events
+            </Link>
+            <Link
+              href='/mentors'
+              className='hover:text-primary hover:opacity-30 transition-all'
+            >
+              Mentorship <Badge className={'bg-blue-700'}>New</Badge>
             </Link>
             <Link href="https://lisboaux.com/slack" className="hover:text-primary hover:opacity-30 transition-all">
               Community
