@@ -1,5 +1,7 @@
 import Link from "next/link"
 import { inter } from "./fonts"
+import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -7,7 +9,11 @@ export default function Home() {
       <header className="text-lg">
         <div className="mx-auto flex h-14 max-w-[1024px] items-center justify-between px-4">
           <div className="font- font-extrabold">
-            <Link href="/">LisboaUX</Link>
+            <Link href="/">
+
+            <Image alt="LisboaUX logotype" src={'logo.svg'} width={100} height={100}/>
+            </Link>
+            
           </div>
           <nav className="flex gap-5 text-base">
             <Link href="https://lu.ma/lisboaux" className="hover:text-primary hover:opacity-30 transition-all">
