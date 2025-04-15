@@ -8,6 +8,7 @@ import React from 'react';
   name: string;
   role: string;
   bio: string;
+  calLink: string;
   socialLinks?: {
     facebook?: string,
     twitter?: string,
@@ -16,7 +17,14 @@ import React from 'react';
   };
 } */
 
-export function TeamMemberCard({ image, name, role, bio, socialLinks = {} }) {
+export function TeamMemberCard({
+  image,
+  name,
+  role,
+  bio,
+  socialLinks,
+  calLink = {},
+}) {
   return (
     <Card className='overflow-hidden max-w-sm'>
       <div className='aspect-square w-full overflow-hidden'>
@@ -79,6 +87,15 @@ export function TeamMemberCard({ image, name, role, bio, socialLinks = {} }) {
             </Link>
           )}
         </div>
+        {calLink.length > 1 && (
+          <button
+            data-cal-link={calLink}
+            data-cal-config='{"layout":"month_view"}'
+            className='bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition'
+          >
+            Book Office Hour
+          </button>
+        )}
       </CardContent>
     </Card>
   );

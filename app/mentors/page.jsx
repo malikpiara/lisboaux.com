@@ -1,10 +1,26 @@
+'use client';
 import Link from 'next/link';
 import { inter } from '../fonts';
 import Image from 'next/image';
 import { TeamMemberCard } from '@/components/team-member-card';
 import { Badge } from '@/components/ui/badge';
+import { useEffect } from 'react';
+import { getCalApi } from '@calcom/embed-react';
 
 export default function Home() {
+  useEffect(() => {
+    (async function () {
+      const cal = await getCalApi();
+      cal('ui', {
+        cssVarsPerTheme: {
+          light: { 'cal-brand': '#1C42BB' },
+          dark: { 'cal-brand': '#fafafa' },
+        },
+        layout: 'week_view',
+        hideEventTypeDetails: false,
+      });
+    })();
+  }, []);
   return (
     <div className={`flex min-h-screen flex-col ${inter.className}`}>
       <header className='text-lg'>
@@ -62,6 +78,7 @@ export default function Home() {
                 <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
                   From speakers to mentors
                 </h2>
+
                 <h3 className='text-muted-foreground text-xl'>
                   Our mentors are past speakers who dedicate at least 1 hour
                   each month to help you grow — through 1-1 career advice,
@@ -80,6 +97,7 @@ export default function Home() {
                   socialLinks={{
                     linkedin: 'https://www.linkedin.com/in/isabelnovais/',
                   }}
+                  //calLink={'malikpiara/1-hour-meeting'}
                 />
                 <TeamMemberCard
                   name='Sónia Gomes'
@@ -91,6 +109,7 @@ export default function Home() {
                   socialLinks={{
                     linkedin: 'https://www.linkedin.com/in/sonia-gomes/',
                   }}
+                  calLink={'malikpiara/lisboaux-mentoring-with-sonia'}
                 />
                 <TeamMemberCard
                   name='Paulo Fonseca'
@@ -102,6 +121,7 @@ export default function Home() {
                   socialLinks={{
                     linkedin: 'https://www.linkedin.com/in/paulofonseca1987/',
                   }}
+                  calLink={'malikpiara/lisboaux-mentoring-with-paulo'}
                 />
               </div>
             </div>
