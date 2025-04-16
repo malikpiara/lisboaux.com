@@ -91,7 +91,7 @@ export function TeamMemberCard({
           <button
             data-cal-link={calLink}
             data-cal-config='{"layout":"month_view"}'
-            className='bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition'
+            className='bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition mt-4 cursor-pointer'
           >
             Book Office Hour
           </button>
