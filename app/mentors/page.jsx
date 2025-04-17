@@ -110,6 +110,7 @@ export default function Home() {
                     linkedin: 'https://www.linkedin.com/in/sonia-gomes/',
                   }}
                   calLink={'malikpiara/lisboaux-mentoring-with-sonia'}
+                  highlighted={true}
                 />
                 <TeamMemberCard
                   name='Paulo Fonseca'
@@ -122,6 +123,7 @@ export default function Home() {
                     linkedin: 'https://www.linkedin.com/in/paulofonseca1987/',
                   }}
                   calLink={'malikpiara/lisboaux-mentoring-with-paulo'}
+                  highlighted={true}
                 />
                 <TeamMemberCard
                   name='Hugo Alves'
@@ -133,7 +135,8 @@ export default function Home() {
                   socialLinks={{
                     linkedin: 'https://www.linkedin.com/in/hugomanuelalves/',
                   }}
-                  calLink={''}
+                  calLink={'hugo-lisboaux'}
+                  highlighted={true}
                 />
                 <TeamMemberCard
                   name='Ivo Gomes'
@@ -158,7 +161,8 @@ export default function Home() {
                     linkedin:
                       'https://www.linkedin.com/in/marianapenamonteiro/',
                   }}
-                  calLink={''}
+                  calLink={'mariana-lisboaux'}
+                  highlighted
                 />
               </div>
             </div>

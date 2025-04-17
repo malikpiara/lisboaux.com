@@ -14,6 +14,7 @@ import React from 'react';
     twitter?: string,
     github?: string,
     dribbble?: string,
+    highlighted: boolean,
   };
 } */
 
@@ -24,9 +25,16 @@ export function TeamMemberCard({
   bio,
   socialLinks,
   calLink = {},
+  highlighted,
 }) {
   return (
-    <Card className='overflow-hidden max-w-sm'>
+    <Card
+      className={`overflow-hidden max-w-sm transition-shadow ${
+        highlighted
+          ? 'border-2 border-pink-500 shadow-[0_0_15px_4px_rgba(236,72,153,0.5)] border-gradient-to-r from-pink-600 to-purple-600'
+          : ''
+      }`}
+    >
       <div className='aspect-square w-full overflow-hidden'>
         <img
           src={image}
