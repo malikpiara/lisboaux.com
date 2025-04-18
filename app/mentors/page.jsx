@@ -6,6 +6,7 @@ import { TeamMemberCard } from '@/components/team-member-card';
 import { Badge } from '@/components/ui/badge';
 import { useEffect } from 'react';
 import { getCalApi } from '@calcom/embed-react';
+import { Header } from '@/components/navbar';
 
 export default function Home() {
   useEffect(() => {
@@ -23,70 +24,24 @@ export default function Home() {
   }, []);
   return (
     <div className={`flex min-h-screen flex-col ${inter.className}`}>
-      <header className='text-lg'>
-        <div className='mx-auto flex h-14 max-w-[1024px] items-center justify-between px-4'>
-          <div className='font- font-extrabold'>
-            <Link href='/'>
-              <Image
-                alt='LisboaUX logotype'
-                src={'logo.svg'}
-                width={100}
-                height={100}
-              />
-            </Link>
-          </div>
-          <nav className='flex gap-5 text-base'>
-            <Link
-              href='https://lu.ma/lisboaux'
-              className='hover:text-primary hover:opacity-30 transition-all'
-            >
-              Events
-            </Link>
-            <Link
-              href='/mentors'
-              className='hover:text-primary hover:opacity-30 transition-all'
-            >
-              Mentorship <Badge className={'bg-blue-700'}>New</Badge>
-            </Link>
-            <Link
-              href='https://lisboaux.com/slack'
-              className='hover:text-primary hover:opacity-30 transition-all'
-            >
-              Community
-            </Link>
-            <Link
-              href='https://www.linkedin.com/company/lisboaux/'
-              className='hover:text-primary hover:opacity-30 transition-all'
-            >
-              LinkedIn
-            </Link>
-            <Link
-              href='https://www.youtube.com/@LisboaUX'
-              className='hover:text-primary hover:opacity-30 transition-all'
-            >
-              Youtube
-            </Link>
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       <main className='flex-1 text-lg animate-in'>
-        <section className='mx-auto  py-10 px-4'>
+        <section className='mx-auto py-4 px-4'>
           <section className='bg-white dark:bg-gray-900'>
-            <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 '>
-              <div className='mx-auto max-w-screen-sm text-center mb-8 lg:mb-16'>
-                <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
-                  From speakers to mentors
+            <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
+              <div className='mx-auto max-w-screen-sm text-center mb-10 lg:mb-24'>
+                <h2 className='mb-4 text-4xl md:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-white'>
+                  Grab a coffee, get advice
                 </h2>
 
-                <h3 className='text-muted-foreground text-xl'>
-                  Our mentors are past speakers who dedicate at least 1 hour
-                  each month to help you grow — through 1-1 career advice,
-                  portfolio feedback, and sharing practical tools and resources
-                  for designers.
+                <h3 className='text-muted-foreground text-xl max-w-xl mx-auto'>
+                  Our mentors dedicate one hour every month to help you grow —
+                  through 1-1 career advice, portfolio feedback, and practical
+                  resources for designers.
                 </h3>
               </div>
-              <div className='grid gap-8 mb-6 lg:mb-16 md:grid-cols-3'>
+              <div className='grid gap-10 mb-6 md:grid-cols-3'>
                 <TeamMemberCard
                   name='Isabel Novais Machado'
                   image='isabel.png'
