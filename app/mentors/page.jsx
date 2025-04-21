@@ -77,7 +77,7 @@ export default function Home() {
                   socialLinks={{
                     linkedin: 'https://www.linkedin.com/in/paulofonseca1987/',
                   }}
-                  calLink={'malikpiara/lisboaux-mentoring-with-paulo'}
+                  calLink={'paulo-lisboaux'}
                   highlighted={true}
                 />
                 <TeamMemberCard
