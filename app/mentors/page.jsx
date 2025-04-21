@@ -119,6 +119,20 @@ export default function Home() {
                   calLink={'mariana-lisboaux'}
                   highlighted
                 />
+                <TeamMemberCard
+                  name='Ricardo Luiz'
+                  image='ricardo.png'
+                  role='UX Strategist Lead at Mediaweb'
+                  bio={
+                    'I’m really excited to meet all of you. I’ve worked closely with UX, product, and tech teams, and I know how valuable great design is, but also how hard it can be to get your work seen, understood, and appreciated. I’d love to help you in any of the following ways: \n\n✦ Giving feedback on your personal narrative — how you tell your story when applying for jobs or talking to stakeholders; \n✦ Reviewing your portfolio and helping you frame your work in ways that highlight impact and collaboration; \n✦ Sharing tips on how to work better with product managers and developers; \n✦ Offering real-world examples of how UX made the difference in a product’s success; \n✦ Pointing you to practical tools, frameworks, or resources to grow your influence. Whether you’re preparing for your next role or just want a sounding board for your ideas, I’m happy to support however I can.'
+                  }
+                  socialLinks={{
+                    linkedin:
+                      'https://www.linkedin.com/in/marianapenamonteiro/',
+                  }}
+                  calLink={'ricardo-lisboaux'}
+                  highlighted
+                />
               </div>
             </div>
           </section>

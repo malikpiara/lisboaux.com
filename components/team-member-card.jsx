@@ -122,7 +122,7 @@ export function TeamMemberCard({
         )}
 
         {/* Actual Card content */}
-        <Card className='relative z-20 h-full bg-white dark:bg-gray-950 overflow-hidden rounded-b-2xl rounded-t-full'>
+        <Card className='relative z-20 h-full bg-white dark:bg-gray-950 overflow-hidden rounded-b-2xl rounded-t-full whitespace-pre-line'>
           <div className='aspect-square w-full overflow-hidden '>
             <img
               src={image}
