@@ -43,6 +43,19 @@ export default function Home() {
               </div>
               <div className='grid gap-10 mb-6 md:grid-cols-3'>
                 <TeamMemberCard
+                  name='Rui Quinta'
+                  highlighted
+                  image='rui.png'
+                  role='Co-founder at With Company'
+                  bio={
+                    'Rui sees design as the practice of shaping services, identities, processes, systems, and cultures that make experiences meaningful. With hands-on experience (Toyno, Peixaria Centenária, IDEO, among others) and an academic role teaching at business schools and universities, Rui guides teams in Design Thinking and Innovation while mentoring and consulting leaders who want to put curiosity at the center, align purpose with action, and improve what matters most—whether it’s brand, product, service, or organizational culture.'
+                  }
+                  socialLinks={{
+                    linkedin: 'https://www.linkedin.com/in/rquinta/',
+                  }}
+                  calLink={'malikpiara/lisboaux-mentoring-with-rui'}
+                />
+                <TeamMemberCard
                   name='Isabel Novais Machado'
                   image='isabel.png'
                   role='Head of Design at Usercentrics'
@@ -64,8 +77,7 @@ export default function Home() {
                   socialLinks={{
                     linkedin: 'https://www.linkedin.com/in/sonia-gomes/',
                   }}
-                  calLink={'malikpiara/lisboaux-mentoring-with-sonia'}
-                  highlighted={true}
+                  //calLink={'malikpiara/lisboaux-mentoring-with-sonia'}
                 />
                 <TeamMemberCard
                   name='Paulo Fonseca'
@@ -77,8 +89,7 @@ export default function Home() {
                   socialLinks={{
                     linkedin: 'https://www.linkedin.com/in/paulofonseca1987/',
                   }}
-                  calLink={'paulo-lisboaux'}
-                  highlighted={true}
+                  //calLink={'paulo-lisboaux'}
                 />
                 <TeamMemberCard
                   name='Hugo Alves'
@@ -90,8 +101,7 @@ export default function Home() {
                   socialLinks={{
                     linkedin: 'https://www.linkedin.com/in/hugomanuelalves/',
                   }}
-                  calLink={'hugo-lisboaux'}
-                  highlighted={true}
+                  //calLink={'hugo-lisboaux'}
                 />
                 <TeamMemberCard
                   name='Ivo Gomes'
@@ -103,7 +113,7 @@ export default function Home() {
                   socialLinks={{
                     linkedin: 'https://www.linkedin.com/in/ivogomes/',
                   }}
-                  calLink={''}
+                  // calLink={''}
                 />
                 <TeamMemberCard
                   name='Mariana Pena Monteiro'
@@ -117,7 +127,6 @@ export default function Home() {
                       'https://www.linkedin.com/in/marianapenamonteiro/',
                   }}
                   calLink={'mariana-lisboaux'}
-                  highlighted
                 />
                 <TeamMemberCard
                   name='Ricardo Luiz'
@@ -130,8 +139,7 @@ export default function Home() {
                     linkedin:
                       'https://www.linkedin.com/in/marianapenamonteiro/',
                   }}
-                  calLink={'ricardo-lisboaux'}
-                  highlighted
+                  // calLink={'ricardo-lisboaux'}
                 />
               </div>
             </div>
