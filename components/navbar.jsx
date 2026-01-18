@@ -24,10 +24,16 @@ export function Header() {
             Events
           </Link>
           <Link
+            href='https://jobs.lisboaux.com/'
+            className='hover:text-primary hover:opacity-30 transition-all'
+          >
+            Jobs <Badge className={'bg-blue-700'}>New</Badge>
+          </Link>
+          <Link
             href='/mentors'
             className='hover:text-primary hover:opacity-30 transition-all'
           >
-            Mentorship <Badge className={'bg-blue-700'}>New</Badge>
+            Mentorship
           </Link>
           <Link
             href='https://lisboaux.com/slack'
