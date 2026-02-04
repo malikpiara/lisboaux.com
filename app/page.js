@@ -1,35 +1,57 @@
-import Link from "next/link"
-import { inter } from "./fonts"
-import { Header } from "@/components/navbar";
+import Link from 'next/link';
+import Image from 'next/image';
+import { Badge } from '@/components/ui/badge';
 
-export default function Home() {
+export default function SlackPage() {
   return (
-    <div className={`flex min-h-screen flex-col ${inter.className}`}>
-     <Header />
-
-      <main className="flex-1 text-lg animate-in">
-        <section className="mx-auto max-w-[1024px] py-10 px-4">
-          <h1 className="text-4xl mx-auto text-muted-foreground scroll-m-20 tracking-tight lg:text-4xl">Welcome to LisboaUX</h1>
-          <p className="max-w-[624px] text-muted-foreground leading-7 [&:not(:first-child)]:mt-6">
-          We are a community of designers based in Lisboa. Every month, we host <span className="font-bold">talks</span> & <span className="font-bold">intimate dinners</span> to nurture growth and belonging. Come listen to our stories and hone your craft together with us.
-          </p>
-          <Link className="text-muted-foreground text-muted-foreground leading-7 block w-fit mt-6 border-b pb-1 hover:border-0 transition-all hover:opacity-30" href='https://lisboaux.com/slack'>Join our community on Slack.</Link>
-        </section>
-      </main>
-
-      <footer className="">
-        <div className="mx-auto flex max-w-[1024px] items-center justify-between px-4 py-4">
-          <p className="text-muted-foreground">© {new Date().getFullYear()} LisboaUX</p>
-          {/* <div className="flex gap-3 text-xs text-muted-foreground">
-            <Link href="/terms" className="hover:text-foreground">
-              Terms
-            </Link>
-            <Link href="/privacy" className="hover:text-foreground">
-              Privacy
-            </Link>
-          </div> */}
+    <main className='min-h-screen bg-background'>
+      <div className='max-w-3xl mx-auto px-4 py-8 items-center'>
+        {/* Welcome Section */}
+        <div className='mb-8'>
+          <h1 className='text-2xl font-semibold'>
+            Welcome to LisboaUX
+          </h1>
         </div>
-      </footer>
-    </div>
+
+        <section className='text-lg space-y-4'>
+          <div className='mt-0 '>
+            <div className='max-w-3xl mx-0'>
+              <p className='leading-7 [&:not(:first-child)]:mt-6'>
+                We are a community of designers based in Lisboa. Every month, we host talks & intimate dinners to nurture growth and belonging. Come listen to our stories and hone your craft together with us.
+              </p>
+
+            </div>
+          </div>
+        </section>
+        <NewNavigation />
+      </div>
+    </main>
+  );
+}
+
+export function NewNavigation() {
+  return (
+    <ul className='text-lg font-medium absolute right-5 bottom-5 lg:top-5 text-right border md:border-none rounded-lg p-4 shadow md:shadow-none md:bg-background bg-white '>
+      <li className=''>
+        <Link
+          className='flex flex-row justify-end items-start gap-2'
+          href={'https://jobs.lisboaux.com'}
+        >
+          <div>Design Jobs</div>
+          <div className='m-0'>
+            <Badge className={'bg-[#0237CF]'} />
+          </div>
+        </Link>
+      </li>
+      <li>
+        <Link href={'https://www.youtube.com/@LisboaUX'}>YouTube Channel</Link>
+      </li>
+      <li>
+        <Link href={'/slack'}>Slack Community</Link>
+      </li>
+      <li>
+        <Link href={'https://lu.ma/lisboaux'}>Offline Events</Link>
+      </li>
+    </ul>
   );
 }

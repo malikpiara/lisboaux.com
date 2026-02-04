@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Motto } from '@/components/motto';
 
 export const metadata = {
   title: "LisboaUX",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
         className={`antialiased `}
       >
         {children}
+        <Motto />
       </body>
     </html>
   );
