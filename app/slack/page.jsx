@@ -49,7 +49,7 @@ export default function SlackPage() {
 
 export function NewNavigation() {
   return (
-    <ul className='text-lg font-medium md:absolute right-5 bottom-5 lg:top-5 text-right border md:border-none rounded-lg p-4 shadow md:shadow-none md:bg-background bg-card sticky opacity-90 backdrop-blur-md'>
+    <ul className='text-lg font-medium md:absolute right-5 bottom-5 lg:top-5 text-right border md:border-none rounded-lg p-4 shadow md:shadow-none md:bg-background bg-card fixed opacity-90 backdrop-blur-md'>
       <li>
         <Link
           className='flex flex-row justify-end items-start gap-2'
