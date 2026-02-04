@@ -9,7 +9,7 @@ export default function SlackPage() {
         {/* Welcome Section */}
         <div className='mb-8'>
           <h1 className='text-2xl font-semibold'>
-            Our Slack Community is currently closed.
+            Our Slack Community is currently closed to new members.
           </h1>
         </div>
 
@@ -49,15 +49,18 @@ export default function SlackPage() {
 
 export function NewNavigation() {
   return (
-    <ul className='text-lg font-medium md:absolute right-5 bottom-5 lg:top-5 text-right border md:border-none rounded-lg p-4 shadow md:shadow-none md:bg-background bg-card sticky opacity-90'>
-      <li className=''>
+    <ul className='text-lg font-medium md:absolute right-5 bottom-5 lg:top-5 text-right border md:border-none rounded-lg p-4 shadow md:shadow-none md:bg-background bg-card sticky opacity-90 backdrop-blur-md'>
+      <li>
         <Link
           className='flex flex-row justify-end items-start gap-2'
           href={'https://jobs.lisboaux.com'}
         >
           <div>Design Jobs</div>
           <div className='m-0'>
-            <Badge className={'bg-[#0237CF]'} />
+            <Badge className={'bg-[#0237CF] text-muted md:hidden'}>New</Badge>
+            <Badge
+              className={'bg-[#0237CF] text-muted hidden md:inline-flex'}
+            ></Badge>
           </div>
         </Link>
       </li>
