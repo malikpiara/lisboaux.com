@@ -31,7 +31,7 @@ export default function SlackPage() {
 
 export function NewNavigation() {
   return (
-    <ul className='text-lg font-medium md:absolute right-5 bottom-5 lg:top-5 text-right border md:border-none rounded-lg p-4 shadow md:shadow-none md:bg-background bg-card fixed opacity-90 backdrop-blur-md'>
+    <ul className='text-lg font-medium md:absolute right-5 bottom-5 lg:top-5 text-right border md:border-none rounded-lg p-4 shadow md:shadow-none md:bg-background bg-card fixed left-5 md:left-auto opacity-90 backdrop-blur-md'>
       <li>
         <Link
           className='flex flex-row justify-end items-start gap-2'
@@ -39,9 +39,9 @@ export function NewNavigation() {
         >
           <div>Design Jobs</div>
           <div className='m-0'>
-            <Badge className={'bg-[#0237CF] text-muted md:hidden'}>New</Badge>
+            <Badge className={'bg-[#0237CF] dark:bg-[#3663f6] text-muted md:hidden'}>New</Badge>
             <Badge
-              className={'bg-[#0237CF] text-muted hidden md:inline-flex'}
+              className={'bg-[#0237CF] dark:bg-[#3663f6] text-muted hidden md:inline-flex'}
             ></Badge>
           </div>
         </Link>

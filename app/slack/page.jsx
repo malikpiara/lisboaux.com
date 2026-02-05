@@ -1,6 +1,4 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import { Badge } from '@/components/ui/badge';
+import { NewNavigation } from '../page';
 
 export default function SlackPage() {
   return (
@@ -44,35 +42,5 @@ export default function SlackPage() {
         <NewNavigation />
       </div>
     </main>
-  );
-}
-
-export function NewNavigation() {
-  return (
-    <ul className='text-lg font-medium md:absolute right-5 bottom-5 lg:top-5 text-right border md:border-none rounded-lg p-4 shadow md:shadow-none md:bg-background bg-card fixed opacity-90 backdrop-blur-md'>
-      <li>
-        <Link
-          className='flex flex-row justify-end items-start gap-2'
-          href={'https://jobs.lisboaux.com'}
-        >
-          <div>Design Jobs</div>
-          <div className='m-0'>
-            <Badge className={'bg-[#0237CF] text-muted md:hidden'}>New</Badge>
-            <Badge
-              className={'bg-[#0237CF] text-muted hidden md:inline-flex'}
-            ></Badge>
-          </div>
-        </Link>
-      </li>
-      <li>
-        <Link href={'https://www.youtube.com/@LisboaUX'}>YouTube Channel</Link>
-      </li>
-      <li>
-        <Link href={'/slack'}>Slack Community</Link>
-      </li>
-      <li>
-        <Link href={'https://lu.ma/lisboaux'}>Offline Events</Link>
-      </li>
-    </ul>
   );
 }
