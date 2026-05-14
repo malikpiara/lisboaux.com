@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       >
         {children}
         <Motto />
-        <CardPersonOfTheMonth/>
+        {/* <CardPersonOfTheMonth/> */}
       </body>
     </html>
   );

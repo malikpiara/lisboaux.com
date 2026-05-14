@@ -1,7 +1,7 @@
 export const listOfMentors = [
   {
     name: 'Sitara',
-    highlighted: true,
+    highlighted: false,
     image: 'sitara.png',
     role: 'Senior Product Designer at Usercentrics',
     bio: "Over eight years experience crafting digital products across a range of sectors in London, including B2B, B2C, nonprofits, startups, and fintech. \n\nWith a background in fine art and web development, I draw from both of these to design with creativity, empathy and technical understanding. I love solving big, meaty problems using human-centred, data-driven design to produce solutions across every stage of the product lifecycle (and make them look beautiful too!).",
@@ -12,7 +12,7 @@ export const listOfMentors = [
   },
   {
     name: 'Isabel Novais Machado',
-    highlighted: true,
+    highlighted: false,
     image: 'isabel.png',
     role: 'Head of Design at Usercentrics',
     bio: "With over 15 years of experience spanning telecommunications, data, and finance, Isabel has been instrumental in positioning Design as a strategic partner for business and tech. As a design leader, she's passionate about collaboration and believes that truly impactful solutions come from understanding people's needs.",
@@ -87,8 +87,21 @@ export const listOfMentors = [
     role: 'UX Strategist Lead at Mediaweb',
     bio: "I'm really excited to meet all of you. I've worked closely with UX, product, and tech teams, and I know how valuable great design is, but also how hard it can be to get your work seen, understood, and appreciated. I'd love to help you in any of the following ways: \n\n✦ Giving feedback on your personal narrative — how you tell your story when applying for jobs or talking to stakeholders; \n✦ Reviewing your portfolio and helping you frame your work in ways that highlight impact and collaboration; \n✦ Sharing tips on how to work better with product managers and developers; \n✦ Offering real-world examples of how UX made the difference in a product's success; \n✦ Pointing you to practical tools, frameworks, or resources to grow your influence. Whether you're preparing for your next role or just want a sounding board for your ideas, I'm happy to support however I can.",
     socialLinks: {
-      linkedin: 'https://www.linkedin.com/in/marianapenamonteiro/',
+      linkedin: 'https://www.linkedin.com/in/uxluiz/',
     },
     // calLink: 'ricardo-lisboaux',
+  },
+  {
+    name: 'Rafael Matos da Silva',
+    highlighted: true,
+    image: 'rafael.png',
+    role: 'Freelance Design Systems and Brand Identity Lead',
+    bio: "Whether you're refining a portfolio, improving a design system, exploring freelancing, structuring work in Figma, or figuring out your next career move, I'm happy to share feedback, perspective, and real-world experience.\
+\n\nI help designers, freelancers, and product teams navigate what they're building with stronger direction. \
+Working across branding, UI/UX, design systems, and independent creative work with entrepreneurs, startups, SaaS companies, and agencies for over 20 years.",
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/rafaelmatosds/',
+    },
+    calLink: 'malikpiara/lisboaux-mentoring-with-rafael',
   },
 ];
