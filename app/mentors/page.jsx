@@ -32,16 +32,16 @@ export default function Home() {
       <Header />
       <main className='flex-1 text-lg animate-in'>
         <section className='mx-auto py-4 px-4'>
-          <section className='bg-background dark:bg-gray-900'>
+          <section className='bg-background'>
             <div className='py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6'>
               <div className='mx-auto max-w-screen-sm text-center mb-10 lg:mb-24'>
-                <h2 className='mb-4 text-4xl md:text-5xl tracking-tight font-extrabold text-[#0237CF] dark:text-white'>
+                <h2 className='mb-4 text-4xl md:text-5xl leading-[1.1] tracking-tight font-extrabold text-balance text-[#0237CF] dark:text-white'>
                   Grab a coffee, get advice
                 </h2>
 
-                <h3 className='text-muted-foreground text-xl max-w-xl mx-auto'>
+                <h3 className='text-muted-foreground text-xl text-pretty max-w-xl mx-auto'>
                   Our mentors dedicate one hour every month to help you grow —
-                  through 1-1 career advice, portfolio feedback, and practical
+                  through 1:1 career advice, portfolio feedback, and practical
                   resources for designers.
                 </h3>
               </div>

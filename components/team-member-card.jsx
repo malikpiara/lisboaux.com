@@ -28,25 +28,25 @@ export function TeamMemberCard({
         )}
 
         {/* Actual Card content */}
-        <Card className='relative z-20 h-full bg-white dark:bg-gray-950 overflow-hidden rounded-b-2xl rounded-t-full whitespace-pre-line'>
+        <Card className='relative z-20 h-full bg-card overflow-hidden rounded-b-2xl rounded-t-full whitespace-pre-line'>
           <div className='aspect-square w-full overflow-hidden '>
             <img
               src={image}
               alt={`${name} profile picture`}
-              className='w-full h-full object-cover block'
+              className='w-full h-full object-cover block transition duration-300 ease-out dark:saturate-75 dark:brightness-90 dark:group-hover:saturate-100 dark:group-hover:brightness-100'
             />
           </div>
           <CardContent className='p-6 py-2 pb-6'>
-            <h3 className='text-2xl font-bold text-gray-900'>{name}</h3>
-            <p className='text-gray-500 text-lg mt-1'>{role}</p>
+            <h3 className='text-2xl font-bold text-card-foreground'>{name}</h3>
+            <p className='text-muted-foreground text-lg mt-1'>{role}</p>
 
-            <p className='mt-4 text-gray-600'>{bio}</p>
+            <p className='mt-4 text-card-foreground/80 text-pretty'>{bio}</p>
 
             <div className='flex gap-4 mt-6'>
               {socialLinks.facebook && (
                 <Link
                   href={socialLinks.facebook}
-                  className='text-gray-500 hover:text-gray-700'
+                  className='text-muted-foreground hover:text-card-foreground transition-colors'
                 >
                   <Facebook className='w-6 h-6' />
                   <span className='sr-only'>Facebook</span>
@@ -55,7 +55,7 @@ export function TeamMemberCard({
               {socialLinks.twitter && (
                 <Link
                   href={socialLinks.twitter}
-                  className='text-gray-500 hover:text-gray-700'
+                  className='text-muted-foreground hover:text-card-foreground transition-colors'
                 >
                   <Twitter className='w-6 h-6' />
                   <span className='sr-only'>Twitter</span>
@@ -64,7 +64,7 @@ export function TeamMemberCard({
               {socialLinks.github && (
                 <Link
                   href={socialLinks.github}
-                  className='text-gray-500 hover:text-gray-700'
+                  className='text-muted-foreground hover:text-card-foreground transition-colors'
                 >
                   <Github className='w-6 h-6' />
                   <span className='sr-only'>GitHub</span>
@@ -73,7 +73,7 @@ export function TeamMemberCard({
               {socialLinks.dribbble && (
                 <Link
                   href={socialLinks.dribbble}
-                  className='text-gray-500 hover:text-gray-700'
+                  className='text-muted-foreground hover:text-card-foreground transition-colors'
                 >
                   <Dribbble className='w-6 h-6' />
                   <span className='sr-only'>Dribbble</span>
@@ -82,7 +82,7 @@ export function TeamMemberCard({
               {socialLinks.linkedin && (
                 <Link
                   href={socialLinks.linkedin}
-                  className='text-gray-500 hover:text-gray-700'
+                  className='text-muted-foreground hover:text-card-foreground transition-colors'
                 >
                   <Linkedin className='w-6 h-6' />
                   <span className='sr-only'>LinkedIn</span>

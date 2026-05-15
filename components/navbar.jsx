@@ -5,7 +5,7 @@ import { Badge } from './ui/badge';
 export function Header() {
   return (
     <header className='text-lg'>
-      <div className='mx-auto flex h-14 text-blue-800 font-medium items-center justify-between px-4'>
+      <div className='mx-auto flex h-14 text-blue-800 dark:text-white font-medium items-center justify-between px-4'>
         <div className='font- font-extrabold'>
           <Link href='/'>
             <Image
@@ -13,6 +13,14 @@ export function Header() {
               src={'logo.svg'}
               width={100}
               height={100}
+              className='block dark:hidden'
+            />
+            <Image
+              alt='LisboaUX logotype'
+              src={'logoWhite.svg'}
+              width={100}
+              height={100}
+              className='hidden dark:block'
             />
           </Link>
         </div>

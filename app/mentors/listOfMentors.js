@@ -15,7 +15,7 @@ export const listOfMentors = [
     highlighted: false,
     image: 'isabel.png',
     role: 'Head of Design at Usercentrics',
-    bio: "With over 15 years of experience spanning telecommunications, data, and finance, Isabel has been instrumental in positioning Design as a strategic partner for business and tech. As a design leader, she's passionate about collaboration and believes that truly impactful solutions come from understanding people's needs.",
+    bio: 'With over 15 years of experience spanning telecommunications, data, and finance, Isabel has been instrumental in positioning Design as a strategic partner for business and tech. As a design leader, she’s passionate about collaboration and believes that truly impactful solutions come from understanding people’s needs.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/isabelnovais/',
     },
@@ -25,7 +25,7 @@ export const listOfMentors = [
     name: 'Rui Quinta',
     image: 'rui.png',
     role: 'Co-founder at With Company',
-    bio: "Rui sees design as the practice of shaping services, identities, processes, systems, and cultures that make experiences meaningful. With hands-on experience (Toyno, Peixaria Centenária, IDEO, among others) and an academic role teaching at business schools and universities, Rui guides teams in Design Thinking and Innovation while mentoring and consulting leaders who want to put curiosity at the center, align purpose with action, and improve what matters most—whether it's brand, product, service, or organizational culture.",
+    bio: 'Rui sees design as the practice of shaping services, identities, processes, systems, and cultures that make experiences meaningful. With hands-on experience (Toyno, Peixaria Centenária, IDEO, among others) and an academic role teaching at business schools and universities, Rui guides teams in Design Thinking and Innovation while mentoring and consulting leaders who want to put curiosity at the center, align purpose with action, and improve what matters most — whether it’s brand, product, service, or organizational culture.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/rquinta/',
     },
@@ -65,7 +65,7 @@ export const listOfMentors = [
     name: 'Ivo Gomes',
     image: 'ivo.png',
     role: 'Director of Product Design at Dashlane',
-    bio: "I'm passionate about minimalist and functional design. I'm currently leading an awesome design team at Dashlane, focusing on making the Internet a safer place by protecting companies and individuals sensitive data (credentials and secrets) from breaches and phishing attempts. As a fan of Design Systems, I helped build Cobalt (Talkdesk's Design System) from the ground up, and lead the team at Dashlane in consolidating our Design System from the early start to a complete multi-platform system.",
+    bio: 'I’m passionate about minimalist and functional design. I’m currently leading an awesome design team at Dashlane, focusing on making the Internet a safer place by protecting companies and individuals sensitive data (credentials and secrets) from breaches and phishing attempts. As a fan of Design Systems, I helped build Cobalt (Talkdesk’s Design System) from the ground up, and lead the team at Dashlane in consolidating our Design System from the early start to a complete multi-platform system.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/ivogomes/',
     },
@@ -75,7 +75,7 @@ export const listOfMentors = [
     name: 'Mariana Pena Monteiro',
     image: 'mariana.png',
     role: 'Senior Innovation & Service Design consultant',
-    bio: "I'm a Service Design & User Experience Specialist with 9 years experience in human-centred design. I help organisations better understand their customers/staff's needs and delivering human-centred design solutions. I facilitate collaboration across all stages of the innovation process, from initial customer research and co-design workshops through to developing live services and products. I work best in an agile environment, where iterative improvements and open communication help guide the team towards a shared goal.",
+    bio: 'I’m a Service Design & User Experience Specialist with 9 years experience in human-centred design. I help organisations better understand their customers/staff’s needs and delivering human-centred design solutions. I facilitate collaboration across all stages of the innovation process, from initial customer research and co-design workshops through to developing live services and products. I work best in an agile environment, where iterative improvements and open communication help guide the team towards a shared goal.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/marianapenamonteiro/',
     },
@@ -85,7 +85,7 @@ export const listOfMentors = [
     name: 'Ricardo Luiz',
     image: 'ricardo.png',
     role: 'UX Strategist Lead at Mediaweb',
-    bio: "I'm really excited to meet all of you. I've worked closely with UX, product, and tech teams, and I know how valuable great design is, but also how hard it can be to get your work seen, understood, and appreciated. I'd love to help you in any of the following ways: \n\n✦ Giving feedback on your personal narrative — how you tell your story when applying for jobs or talking to stakeholders; \n✦ Reviewing your portfolio and helping you frame your work in ways that highlight impact and collaboration; \n✦ Sharing tips on how to work better with product managers and developers; \n✦ Offering real-world examples of how UX made the difference in a product's success; \n✦ Pointing you to practical tools, frameworks, or resources to grow your influence. Whether you're preparing for your next role or just want a sounding board for your ideas, I'm happy to support however I can.",
+    bio: 'I’m really excited to meet all of you. I’ve worked closely with UX, product, and tech teams, and I know how valuable great design is, but also how hard it can be to get your work seen, understood, and appreciated. I’d love to help you in any of the following ways: \n\n✦ Giving feedback on your personal narrative — how you tell your story when applying for jobs or talking to stakeholders; \n✦ Reviewing your portfolio and helping you frame your work in ways that highlight impact and collaboration; \n✦ Sharing tips on how to work better with product managers and developers; \n✦ Offering real-world examples of how UX made the difference in a product’s success; \n✦ Pointing you to practical tools, frameworks, or resources to grow your influence. Whether you’re preparing for your next role or just want a sounding board for your ideas, I’m happy to support however I can.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/uxluiz/',
     },
@@ -96,9 +96,9 @@ export const listOfMentors = [
     highlighted: true,
     image: 'rafael.png',
     role: 'Freelance Design Systems and Brand Identity Lead',
-    bio: "Whether you're refining a portfolio, improving a design system, exploring freelancing, structuring work in Figma, or figuring out your next career move, I'm happy to share feedback, perspective, and real-world experience.\
-\n\nI help designers, freelancers, and product teams navigate what they're building with stronger direction. \
-Working across branding, UI/UX, design systems, and independent creative work with entrepreneurs, startups, SaaS companies, and agencies for over 20 years.",
+    bio: 'Whether you’re refining a portfolio, improving a design system, exploring freelancing, structuring work in Figma, or figuring out your next career move, I’m happy to share feedback, perspective, and real-world experience.\
+\n\nI help designers, freelancers, and product teams navigate what they’re building with stronger direction. \
+Working across branding, UI/UX, design systems, and independent creative work with entrepreneurs, startups, SaaS companies, and agencies for over 20 years.',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/rafaelmatosds/',
     },
