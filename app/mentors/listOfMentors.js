@@ -104,4 +104,15 @@ Working across branding, UI/UX, design systems, and independent creative work wi
     },
     calLink: 'malikpiara/lisboaux-mentoring-with-rafael',
   },
+  {
+    name: 'Artur Poluektov',
+    highlighted: true,
+    image: 'artur.png',
+    role: 'Strategy & Marketing',
+    bio: 'Artur Poluektov is a strategy and marketing advisor and former MD and COO. He helps founder-led companies, and the leaders who run them, get clarity on growth: positioning, the offer, go-to-market, and where to grow next. Direct, evidence-led, and stays until the direction holds.',
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/arturpoluektov/',
+    },
+    calLink: 'malikpiara/lisboaux-mentoring-with-artur',
+  },
 ];
