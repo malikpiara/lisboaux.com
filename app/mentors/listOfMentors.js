@@ -115,4 +115,19 @@ Working across branding, UI/UX, design systems, and independent creative work wi
     },
     calLink: 'malikpiara/lisboaux-mentoring-with-artur',
   },
+  {
+    name: 'Pedro Moreira da Silva',
+    highlighted: true,
+    image: 'pedro.png',
+    role: 'Principal Product Designer at GitLab',
+    bio: `I'm currently Principal Product Designer at GitLab, the leading platform for software development, and one of the largest all-remote orgs. I led GitLab's first agentic design sprint, shaped the UX vision for AI in the IDE, and contributed to putting GitLab in Gartner's Magic Quadrant for AI Code Assistants. Over the years, I've supported the growth of design from 5 to 30+ people — from early startup days through IPO and beyond.
+
+Before GitLab, I helped a startup grow 25% each month and hit #1 on Product Hunt. I also led design at a SaaS.
+
+As a player-coach, I turn fuzzy problems into clear directions and lead by example. I mentor, build culture, and stay close to the work. Hands-on and technical when it helps. Strategic and diplomatic when it matters.`,
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/pedromoreiradasilva/',
+    },
+    calLink: 'malikpiara/lisboaux-mentoring-with-pedro',
+  },
 ];
