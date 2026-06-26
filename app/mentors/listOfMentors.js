@@ -109,7 +109,13 @@ Working across branding, UI/UX, design systems, and independent creative work wi
     highlighted: true,
     image: 'artur.png',
     role: 'Strategy & Marketing',
-    bio: 'Artur Poluektov is a strategy and marketing advisor and former MD and COO. He helps founder-led companies, and the leaders who run them, get clarity on growth: positioning, the offer, go-to-market, and where to grow next. Direct, evidence-led, and stays until the direction holds.',
+    bio: `I'm a strategy and marketing advisor. I ran a service design agency full of UX and service designers, and at Deloitte Digital I led mixed teams of designers, engineers, marketers and strategists, getting them to build the right thing together. So I've sat in your seat, and I've managed, hired and grown people in it. I've watched a lot of designers move up, and I know what moves them up.\n
+A few ways I'd love to help:\n
+✦ Validate before you build. Work out who your project is really for, and whether anyone wants it, before you pour months into it. The customer belongs in the room from the start, not bolted on at the end.
+✦ Grow what you've started. When you have some traction but aren't sure what's next: positioning, a clear offer, and where the demand actually is.
+✦ Move up the ladder. I've managed and promoted designers, so I can help you frame your work for impact, tell your story to the people deciding, and aim for the role you want next.
+✦ Work better across the table. How to collaborate with product managers, founders and stakeholders, speak the language of the business, and get your design work taken seriously where the decisions get made.
+✦ Bridge design and growth. Connect what you make to how a company actually grows, the part most makers never get shown.`,
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/arturpoluektov/',
     },
@@ -124,7 +130,16 @@ Working across branding, UI/UX, design systems, and independent creative work wi
 
 Before GitLab, I helped a startup grow 25% each month and hit #1 on Product Hunt. I also led design at a SaaS.
 
-As a player-coach, I turn fuzzy problems into clear directions and lead by example. I mentor, build culture, and stay close to the work. Hands-on and technical when it helps. Strategic and diplomatic when it matters.`,
+As a player-coach, I turn fuzzy problems into clear directions and lead by example. I mentor, build culture, and stay close to the work. Hands-on and technical when it helps. Strategic and diplomatic when it matters.
+
+I can help with:
+✦ Portfolio, CV and job hunting.
+✦ Communication and public speaking.
+✦ Collaboration, alignment and team structures.
+✦ Business and selling design.
+✦ AI in how you work.
+✦ AI experiences.
+✦ B2B, dev tooling, and software development products.`,
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/pedromoreiradasilva/',
     },
